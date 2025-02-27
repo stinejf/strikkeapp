@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strikketeller</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+         <h1>Strikketeller</h1>
+         <div class="counter-container">
+            <div id="counts" aria-live="polite">0</div>
+            <div class="buttons">
+                <button id="downCountBtn" onclick="downCount()" aria-label="Reduser antall">-</button>
+                <button id="addCountBtn" onclick="addCount()" aria-label="Øk antall">+</button>
+            </div>
+            <div class="buttons">
+                <button onclick="restart()" aria-label="Nullstill teller">Nullstill</button>
+            </div>
+         </div>
+    </main>
+   
+    <script src="js/script.js"></script>
+</body>
+</html>
