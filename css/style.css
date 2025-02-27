@@ -42,3 +42,8 @@ button:hover {
 button:active {
     transform: scale(0.95);
 }
+
+.logo {
+    width: 5%;
+    border-radius: 10px;
+}
